@@ -1,3 +1,5 @@
+v2
+
 [![NPM](https://nodei.co/npm/react-bootstrap-4-pagination.png?downloads=true)](https://nodei.co/npm/react-bootstrap-4-pagination/)
 
 # react-bootstrap-4-pagination
