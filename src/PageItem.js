@@ -3,7 +3,7 @@ import getStyles from './utils/getStyles';
 
 const PageElement = ({onClick, href, page, style, className, children}) => {
     return onClick ?
-    <button className={className} onClick={() => onClick(page)} style={style}>
+    <button className={["btn", className].join(" ")} onClick={() => onClick(page)} style={style}>
         {children}
     </button>
     : <a href={href} className={className} style={style}>
