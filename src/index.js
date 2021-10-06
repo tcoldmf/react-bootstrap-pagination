@@ -28,7 +28,7 @@ export default class Pagination extends React.Component {
         return (
             <nav
                 aria-label={ariaLabel}
-                className={`row ${center && 'justify-content-center'} ${className && className}`}>
+                className={`${center ? 'row justify-content-center' : ''} ${className ? className : ''}`}>
                 <ul
                     style={shadowStyle(shadow, circle)}
                     className={`pagination ${(size === 'sm' || size === 'lg') && 'pagination-' + size}`}>
