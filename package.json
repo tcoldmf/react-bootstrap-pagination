@@ -1,5 +1,5 @@
 {
-    "name": "react-bootstrap-4-pagination",
+    "name": "@zoconet/react-bootstrap-pagination",
     "version": "1.0.3",
     "description": "A React component to render and manage Bootstrap 4 pagination quickly and easily",
     "main": "build/index.js",
@@ -31,12 +31,12 @@
         "react-component"
     ],
     "author": {
-        "name": "Marc Torrents",
-        "email": "hola@marctorrents.com"
+        "name": "David Moreno",
+        "email": "tcoldmf@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/turrione/react-bootstrap-pagination.git"
+        "url": "https://github.com/tcoldmf/react-bootstrap-pagination.git"
     },
     "license": "MIT",
     "devDependencies": {
