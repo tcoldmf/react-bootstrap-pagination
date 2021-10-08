@@ -11,7 +11,7 @@
     "webpack": "^4.43.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No test\" && exit 0",
     "start": "webpack --watch",
     "build": "webpack",
     "prepublishOnly": "npm run build"
