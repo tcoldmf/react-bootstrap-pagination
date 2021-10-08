@@ -1,51 +1,52 @@
 {
-    "name": "@tcoldmf/react-bootstrap-pagination",
-    "version": "1.0.3",
-    "description": "A React component to render and manage Bootstrap 4 pagination quickly and easily",
-    "main": "build/index.js",
-    "peerDependencies": {
-        "react": "^15.5.4"
-    },
-    "dependencies": {
-        "react": "^15.5.4",
-        "webpack": "^4.43.0"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "webpack --watch",
-        "build": "webpack",
-        "prepublishOnly": "npm run build"
-    },
-    "keywords": [
-        "react",
-        "reactjs",
-        "pages",
-        "paginate",
-        "pagination",
-        "paginator",
-        "bootstrap",
-        "reload",
-        "webpack",
-        "babel",
-        "react-transform",
-        "react-component"
-    ],
-    "author": {
-        "name": "David Moreno",
-        "email": "tcoldmf@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/tcoldmf/react-bootstrap-pagination.git"
-    },
-    "license": "MIT",
-    "devDependencies": {
-        "babel-cli": "^6.24.1",
-        "babel-core": "^6.24.1",
-        "babel-loader": "^7.0.0",
-        "babel-plugin-transform-object-rest-spread": "^6.23.0",
-        "babel-plugin-transform-react-jsx": "^6.24.1",
-        "babel-preset-env": "^1.5.1",
-        "webpack-cli": "^3.3.11"
-    }
+  "name": "@tcoldmf/react-bootstrap-pagination",
+  "version": "1.0.3",
+  "description": "A React component to render and manage Bootstrap 4 pagination quickly and easily",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "webpack": "^4.43.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "pages",
+    "paginate",
+    "pagination",
+    "paginator",
+    "bootstrap",
+    "reload",
+    "webpack",
+    "babel",
+    "react-transform",
+    "react-component"
+  ],
+  "author": "David Moreno <tcoldmf@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcoldmf/react-bootstrap-pagination.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "bugs": {
+    "url": "https://github.com/tcoldmf/react-bootstrap-pagination/issues"
+  },
+  "homepage": "https://github.com/tcoldmf/react-bootstrap-pagination#readme"
 }
